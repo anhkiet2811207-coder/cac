@@ -1,13 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
-<head>
-  <meta charset="UTF-8">
-  <title>Web của Kiệt</title>
-</head>
-<body>
-  <h1>Hello GitHub Pages!</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Love TikTok Style</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="bg"></div>
+
+    <div class="envelope" onclick="openLetter()">
+      <div class="flap"></div>
+      <div class="letter">
+        <p id="text"></p>
+      </div>
+    </div>
+
+    <img id="loveImg" />
+
+    <div class="menu">
+      <button onclick="playMusic()">🎵</button>
+      <button onclick="showImages()">🖼️</button>
+      <button onclick="showHearts()">🎁</button>
+    </div>
+
+    <audio id="music" src="ngaydautien.mp3" loop></audio>
+
+    <script src="script.js"></script>
+  </body>
 </html>
-
-
-
